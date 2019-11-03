@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Sajad Torkamani <sajadtorkamani1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "format:check": "prettier --check src/**/*",
+    "format:fix": "prettier --write src/**/*"
+  },
   "dependencies": {
     "cli-table3": "^0.5.1",
     "colors": "^1.4.0",

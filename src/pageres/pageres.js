@@ -15,10 +15,7 @@ const url = process.argv[2] || 'http://sajadtorkamani.com';
 
   // Go and capture new ones!
   await new Pageres({ delay: 2 })
-    .src(
-      url,
-      resolutions
-    )
+    .src(url, resolutions)
     .dest(screenshotsPath)
     .run();
 

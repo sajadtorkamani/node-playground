@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const isUp = require('src/is-up/is-up');
+const isUp = require('is-up');
 const Table = require('cli-table3');
 const colors = require('colors/safe');
 

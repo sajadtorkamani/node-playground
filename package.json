@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Sajad Torkamani <sajadtorkamani1@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "format:check": "prettier --check src/**/*",
     "format:fix": "prettier --write src/**/*",

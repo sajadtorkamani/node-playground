@@ -17,10 +17,12 @@
     "is-up": "^3.0.0",
     "pageres": "^5.2.0",
     "rimraf": "^3.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
     "wifi-password": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.19.115",
     "eslint": "^6.6.0",
     "prettier": "^1.18.2"
   }

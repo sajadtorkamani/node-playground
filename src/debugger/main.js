@@ -5,18 +5,20 @@ const location = 'UK'
 const details = {
   name: name,
   age: age,
-  location: location
+  location: location,
 }
 
 function printDetails() {
-  console.log(`Name: ${details.name}, Age: ${details.age}, Location: ${details.location}`);
+  console.log(
+    `Name: ${details.name}, Age: ${details.age}, Location: ${details.location}`,
+  )
 }
 
 function main() {
-  console.log('Starting the application...');
+  console.log('Starting the application...')
   debugger
-  printDetails();
-  console.log('Application finished.');
+  printDetails()
+  console.log('Application finished.')
 }
 
 main()
